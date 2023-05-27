@@ -154,27 +154,27 @@ const Fotter = () => {
   }
   if (isMobile) {
     return(
-        <div className=' bg-[#111111] w-[100%] h-auto text-xs overflow-hidden  ' >
+        <div className=' bg-[#111111] w-[100%] h-auto text-[.4rem] overflow-hidden  ' >
              <div className=' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem]  ' >
                <div className='flex justify-between' >
                <div className=' flex flex-col gap-6 ' >
                     <div>
-                        <h1 className=' text-base  font-base ' >Customer Service</h1>
+                        <h1 className=' text-[.6rem]  font-base ' >Customer Service</h1>
                     </div>
                     <div className='flex flex-col  gap-4 ' >
                         <div className='flex items-center gap-2 cursor-pointer ' >
-                            <IconShieldLock/>
+                            <IconShieldLock className='w-[.7rem]' />
                             <p>Terms & Privacy Policy</p>
                         </div>
                         <div className='flex items-center gap-2 cursor-pointer '>
-                            <IconRotate2/>
+                            <IconRotate2 className='w-[.7rem]'/>
                             <p>Return Policy</p>
                         </div>
                     </div>
                 </div>
                 <div className=' flex flex-col gap-6 '>
                 <div>
-                        <h1 className=' text-base  font-base '>Language</h1>
+                        <h1 className=' text-[.6rem]  font-base '>Language</h1>
                     </div>
                     <form className='flex flex-col text-[#fff]  gap-4 '>
     
@@ -204,23 +204,23 @@ const Fotter = () => {
                 <div className='flex justify-between' >
                 <div className=' flex flex-col gap-6 ' >
                 <div>
-                        <h1 className=' text-base  font-base '>Contact Us</h1>
+                        <h1 className=' text-[.6rem]  font-base '>Contact Us</h1>
                     </div>
-                    <div className='flex flex-col  gap-6 ' >
+                    <div className='flex flex-col   gap-6 ' >
                         <div className='flex items-center gap-2 cursor-pointer ' >
-                            <IconMapPin/>
+                            <IconMapPin className='w-[.7rem]'/>
                             <p>Zaypine No.3,Kyauktaga, <br/>
                                 Bago,Myanmar.</p>
                         </div>
                         <div className='flex items-center gap-2 cursor-pointer '>
-                            <IconPhoneCall/>
+                            <IconPhoneCall className='w-[.7rem]'/>
                             <p>+95 9 7617 23325</p>
                         </div>
                     </div>
                 </div>
                 <div className=' flex flex-col gap-4 ' >
                 <div>
-                        <h1 className=' text-base font-base '>Download Our App</h1>
+                        <h1 className=' text-[.6rem] font-base '>Download Our App</h1>
                     </div>
                     <div className='flex flex-col  gap-2 ' >
                         <div className='flex items-center gap-2 cursor-pointer ' >

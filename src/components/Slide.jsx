@@ -41,7 +41,7 @@ const Slide = () => {
   >
     <Carousel.Slide>
     <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src="https://www.chanel.com/us/img/t_one/q_auto:good,fl_lossy,dpr_1.2,f_auto/w_1920/prd-emea/sys-master/content/P1/ha8/h24/10191925182494-Desktop_ONE_HP-CORPO_Sliding-Hero_2880x1260px.jpg" alt=""/>
-                    <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[25%] text-[#fff] flex flex-col justify-center items-center text-center ' >
+                    <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[23%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[1.55rem] font-medium ' >Fragrance</p>
                         <span className=' text-[2.875rem] font-semibold ' >LES CARACTÈRES DE CHANEL</span>
                         <button className=' w-[9rem]  h-[3rem] bg-[#fff] text-[#000] text-[.7875rem] font-medium ' type=""> SHOP NOW</button>
@@ -72,7 +72,7 @@ const Slide = () => {
     <Carousel.Slide>
     <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src=
     "https://cdn.shopify.com/s/files/1/1556/1715/articles/Banner_Apr28_800x.jpg?v=1619703044" alt=""/>
-                    <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[25%] text-[#fff] flex flex-col justify-center items-center text-center ' >
+                    <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[22%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[3.55rem]   font-bold ' >CK One for Every Body
 </p>
                         <span className=' text-[.975rem] font-thin ' >

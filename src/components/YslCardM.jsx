@@ -111,9 +111,9 @@ const ysl= [
 
 const YslCardM = () => {
   return (
-    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' chanel flex gap-2 shadow h-[10rem] w-[100%] bg-[#333333] ' >
+    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' ck flex gap-2 shadow h-[10rem] w-[100%] bg-[#333333] ' >
 
-        <div  className=' chanelS  w-[10rem] flex flex-col gap-3 h-[10rem] justify-center ' >
+        <div  className=' ckS  w-[10rem] flex flex-col gap-3 h-[10rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
