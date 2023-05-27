@@ -1,0 +1,19 @@
+.bg-blur{
+    background: rgba(26, 26, 26, 0.2);
+    backdrop-filter: blur(5px);
+}
+.mantine-1svz3tp{
+    color:white;
+}
+@font-face {
+    font-family: "abchanel-corpo";
+    font-display: swap;
+    src: url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-d.woff") format("woff"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-a.otf") format("opentype");
+    font-style: normal;
+    font-weight: 200
+}
+*{
+    font-family: 'abchanel-corpo',sans-serif;
+}
+
+.cls-1{fill:#7360f2}.cls-2{fill:none;stroke:#7360f2;stroke-linecap:round;stroke-linejoin:round;stroke-width:16.86px}

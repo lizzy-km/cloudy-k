@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "abchanel-corpo";
+    font-display: swap;
+    src: url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-l.woff2") format("woff2"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-d.woff") format("woff"),url("https://fonts.chanel.com/k/1b32c8a567ffef9b4919d90a39670b0f25b146bc-a.otf") format("opentype");
+    font-style: normal;
+    font-weight: 200
+}
+*{
+    font-family: 'abchanel-corpo',sans-serif;
+}
+ [type='button']{
+    background-color: #0e0606b0 !important ;
+    border: none;
+    border-radius: 8px;
+  }
+*{
+    
+    transition: .3s;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+* ::-webkit-scrollbar{
+    display: none;
+}
