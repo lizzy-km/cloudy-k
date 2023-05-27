@@ -5,10 +5,26 @@ import { IconShieldLock } from '@tabler/icons-react';
 import { IconMapPin } from '@tabler/icons-react';
 import { IconPhoneCall } from '@tabler/icons-react';
 import { useMediaQuery } from 'react-responsive';
+import {SlArrowUp,SlArrowDown} from 'react-icons/sl'
 const Fotter = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
+
+    const[fot,setFot]=useState(' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-0 opacity-0 p-[1rem]  ')
+
+    const showArrow =    <SlArrowUp onClick={()=>{
+        setArrow(hideArrow)
+        setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem] ')
+    }} />
+
+        const hideArrow =    <SlArrowDown onClick={()=>{
+            setArrow(showArrow)
+            setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%]  h-0 opacity-0  p-[1rem] ')
+        }} />
+
+        const[arrow,setArrow]= useState(showArrow) 
+
     // const [footer,setFooter] = useState(' text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px] ')
   if (isDesktop || isTablet) {
     return(
@@ -155,7 +171,11 @@ const Fotter = () => {
   if (isMobile) {
     return(
         <div className=' bg-[#111111] w-[100%] h-auto text-[.4rem] overflow-hidden  ' >
-             <div className=' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem]  ' >
+            <div className=' text-[#fff] text-xl w-[100%] flex justify-center items-center ' >
+            {arrow}
+            </div>
+           
+             <div className={fot} >
                <div className='flex justify-between' >
                <div className=' flex flex-col gap-6 ' >
                     <div>

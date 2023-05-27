@@ -42,10 +42,10 @@ const NaveBar = () => {
     }
 
   return (
-    <div className=' text-[#fff] nav overflow-hidden w-[100%] relative h-[4rem] flex justify-between px-[5rem] py-[2rem] bg-transparent items-center ' >
+    <div className=' text-[#121212] nav overflow-hidden w-[100%] relative h-[4rem] flex justify-between px-[5rem] py-[2rem] bg-transparent items-center ' >
       <Link to={'/'} className={logo} >
-        <p className=' p-[.3rem] ' > Cloudy. </p>
-        <WiSmoke className=' bg-[#121212] border border-black text-[#fff] w-[2rem] h-[100%]  ' />
+        <p className=' p-[.3rem] bg-[#fff]  ' > Cloudy. </p>
+        <WiSmoke className=' bg-[#121212]  border border-black text-[#fff] w-[2.6rem] h-[2rem]  ' />
       </Link>
       <div className={menu} >
         <div className='hover:border-b-2 w-[2rem] h-[2rem] flex justify-center items-center  ' >

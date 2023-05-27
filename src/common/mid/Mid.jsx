@@ -26,7 +26,7 @@ const Mid = () => {
     useEffect(()=>{
         if (isDesktop) {
             
-            setSlide(' bg-[#4e4f5cbd] w-[100%] h-[700px] relative ')
+            setSlide(' bg-[#4e4f5cbd] w-[100%] h-[500px] relative ')
             setMain('w-[100%] flex flex-col px-[5rem] py-[2rem] items-center justify-center gap-[8rem] ')
 
 
@@ -34,7 +34,7 @@ const Mid = () => {
         if (isTablet) {
             // window.location.reload(true)
             setSlide(' bg-[#4e4f5cbd] w-[100%] h-[500px] relative ')
-            setMain('w-[100%] flex flex-col px-[5rem] py-[2rem] items-center justify-center gap-[8rem] ')
+            setMain('w-[100%] flex flex-col px-[2rem] py-[2rem] items-center justify-center gap-[8rem] ')
 
 
         }
@@ -51,7 +51,7 @@ const Mid = () => {
     
 
   return (
-    <div className='bg-[#121212] top-[0%]  flex flex-col justify-center items-center gap-10  h-auto w-[100%] ' >
+    <div className='bg-[#fffefe] top-[0%]  flex flex-col justify-center items-center gap-20  h-auto w-[100%] ' >
                 <div className={slide} >
                     {
                         isDesktop &&                    <Slide/>
@@ -70,24 +70,25 @@ const Mid = () => {
                 <div className={main} >
                         {
                             isDesktop && <div className=' w-[100%] flex justify-between items-center gap-1 ' >
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
-                                <img className=' shadow-md shadow-[#444444] object-cover bg-[#fff]  w-[20rem] h-[20rem] ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTlYChEHaiBKsJseT86Wb9kHlId2Za9i3hX2GWe0dAJ4MSUQb9yumzbYc9RcvVnsS80&usqp=CAU" alt=""/>
-                            <h1 className=' text-xl ' >For Her</h1>
+                            <div className=' text-[#fff]  flex flex-col justify-center items-center gap-4  w-[20rem] max-h-[20rem] ' >
+                                <img className=' shadow-md shadow-[#444444] object-cover bg-[#fff]  w-[20rem] max-h-[20rem] ' 
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTlYChEHaiBKsJseT86Wb9kHlId2Za9i3hX2GWe0dAJ4MSUQb9yumzbYc9RcvVnsS80&usqp=CAU" alt=""/>
+                            <h1 className=' text-xl text-[#121212] ' >For Her</h1>
                             </div>
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
+                            <div className=' text-[#fff]  flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxRxSMO2_xyx99fygIu6M4aBNW_hBlq2XaA&usqp=CAU" alt=""/>
-                            <h1 className=' text-xl ' >For Him</h1>
+                            <h1 className=' text-xl text-[#121212] ' >For Him</h1>
                             </div>
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
+                            <div className=' text-[#fff]  flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  bg-[#fff] object-cover  w-[20rem] h-[20rem] ' 
                                 src="https://www.chanel.com/emea/img/prd-emea/sys-master/content/P1/h48/h17/9724791848990" alt=""/>
-                            <h1 className=' text-xl ' >New In</h1>
+                            <h1 className=' text-xl text-[#121212] ' >New In</h1>
                             </div>
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
+                            <div className=' text-[#fff]  flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
                                 src="https://the-fragrance-shop.imgix.net/banners/3349668594412_10.jpg?fm=webp&h=547&w=547&max-w=547" alt=""/>
-                            <h1 className=' text-xl ' >Offers</h1>
+                            <h1 className=' text-xl text-[#121212] ' >Offers</h1>
                             </div>
                         </div>
                         }
@@ -95,45 +96,45 @@ const Mid = () => {
                             isTablet && <div className=' w-[100%] flex justify-between items-center gap-1 ' >
                             <div className='  text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTlYChEHaiBKsJseT86Wb9kHlId2Za9i3hX2GWe0dAJ4MSUQb9yumzbYc9RcvVnsS80&usqp=CAU" alt=""/>
-                            <h1 className=' text-xl ' >For Her</h1>
+                            <h1 className=' text-lg ' >For Her</h1>
                             </div>
                             <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxRxSMO2_xyx99fygIu6M4aBNW_hBlq2XaA&usqp=CAU" alt=""/>
-                            <h1 className=' text-xl ' >For Him</h1>
+                            <h1 className=' text-lg ' >For Him</h1>
                             </div>
                             <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  bg-[#fff] object-cover  w-[20rem] h-[20rem] ' 
                                 src="https://www.chanel.com/emea/img/prd-emea/sys-master/content/P1/h48/h17/9724791848990" alt=""/>
-                            <h1 className=' text-xl ' >New In</h1>
+                            <h1 className=' text-lg ' >New In</h1>
                             </div>
                             <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
                                 <img className=' shadow-md shadow-[#444444]  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
                                 src="https://the-fragrance-shop.imgix.net/banners/3349668594412_10.jpg?fm=webp&h=547&w=547&max-w=547" alt=""/>
-                            <h1 className=' text-xl ' >Offers</h1>
+                            <h1 className=' text-lg ' >Offers</h1>
                             </div>
                         </div>
                         }
                         {
                             isMobile && <div className=' w-[100%] flex justify-between items-center gap-1 ' >
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
-                                <img className=' object-cover bg-[#fff]  w-[20rem] h-[20rem] ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTlYChEHaiBKsJseT86Wb9kHlId2Za9i3hX2GWe0dAJ4MSUQb9yumzbYc9RcvVnsS80&usqp=CAU" alt=""/>
-                            <h1 className=' text-base ' >For Her</h1>
+                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[15rem] ' >
+                                <img className=' object-cover bg-[#fff]  w-[20rem] h-[15rem] ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTlYChEHaiBKsJseT86Wb9kHlId2Za9i3hX2GWe0dAJ4MSUQb9yumzbYc9RcvVnsS80&usqp=CAU" alt=""/>
+                            <h1 className=' text-xs ' >For Her</h1>
                             </div>
-                            <div className=' mt-[2rem] text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
-                                <img className='  object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
+                            <div className=' mt-[2rem] text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[15rem] ' >
+                                <img className='  object-cover bg-[#fff]  w-[20rem] h-[15rem] ' 
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxRxSMO2_xyx99fygIu6M4aBNW_hBlq2XaA&usqp=CAU" alt=""/>
-                            <h1 className=' text-base ' >For Him</h1>
+                            <h1 className=' text-xs ' >For Him</h1>
                             </div>
-                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
-                                <img className=' bg-[#fff] object-cover  w-[20rem] h-[20rem] ' 
+                            <div className=' text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[15rem] ' >
+                                <img className=' bg-[#fff] object-cover  w-[20rem] h-[15rem] ' 
                                 src="https://www.chanel.com/emea/img/prd-emea/sys-master/content/P1/h48/h17/9724791848990" alt=""/>
-                            <h1 className=' text-base ' >New In</h1>
+                            <h1 className=' text-xs ' >New In</h1>
                             </div>
-                            <div className=' mt-[2rem] text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[20rem] ' >
-                                <img className=' object-cover bg-[#fff]  w-[20rem] h-[20rem] ' 
+                            <div className=' mt-[2rem] text-[#fff] bg-blur flex flex-col justify-center items-center gap-4  w-[20rem] h-[15rem] ' >
+                                <img className=' object-cover bg-[#fff]  w-[20rem] h-[15rem] ' 
                                 src="https://the-fragrance-shop.imgix.net/banners/3349668594412_10.jpg?fm=webp&h=547&w=547&max-w=547" alt=""/>
-                            <h1 className=' text-base ' >Offers</h1>
+                            <h1 className=' text-xs ' >Offers</h1>
                             </div>
                         </div>
                         }

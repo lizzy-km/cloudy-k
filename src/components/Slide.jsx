@@ -17,7 +17,7 @@ const Slide = () => {
     slideSize='100%'
     // mx="auto"
     withIndicators
-    height={700}
+    height={500}
     styles={{
         control:{
             color: 'white',
@@ -40,7 +40,7 @@ const Slide = () => {
     }}
   >
     <Carousel.Slide>
-    <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src="https://www.chanel.com/us/img/t_one/q_auto:good,fl_lossy,dpr_1.2,f_auto/w_1920/prd-emea/sys-master/content/P1/ha8/h24/10191925182494-Desktop_ONE_HP-CORPO_Sliding-Hero_2880x1260px.jpg" alt=""/>
+    <img className=' brightness-75 w-[100%] h-[500px] object-cover ' src="https://www.chanel.com/us/img/t_one/q_auto:good,fl_lossy,dpr_1.2,f_auto/w_1920/prd-emea/sys-master/content/P1/ha8/h24/10191925182494-Desktop_ONE_HP-CORPO_Sliding-Hero_2880x1260px.jpg" alt=""/>
                     <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[16%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[1.55rem] font-medium ' >Fragrance</p>
                         <span className=' text-[2.875rem] font-semibold ' >LES CARACTÈRES DE CHANEL</span>
@@ -48,7 +48,7 @@ const Slide = () => {
                     </div>
     </Carousel.Slide>
     <Carousel.Slide>
-    <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src=
+    <img className=' brightness-75 w-[100%] h-[500px] object-cover ' src=
     "https://media.gucci.com/content/HeroRegularStandard_3200x1350/1677524480/HeroRegularStandard_Bloom-intense-2023-02_001_Default.jpg" alt=""/>
                     <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[0%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[3.55rem] font-thin ' >WOMEN'S FRAGRANCES</p>
@@ -57,7 +57,7 @@ const Slide = () => {
                     </div>
     </Carousel.Slide>
     <Carousel.Slide>
-    <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src=
+    <img className=' brightness-75 w-[100%] h-[500px] object-cover ' src=
     "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-us-Library/default/dwc8801c1d/landing-pages/frag-collection/Hero%20Asset%20(3).jpg?sw=2000&sh=724&sm=cut&q=85" alt=""/>
                     <div className=' gap-6 tracking-wider absolute bottom-[20%] left-[12%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[3.55rem]   font-bold ' >Y EAU DE PARFUM
@@ -70,7 +70,7 @@ const Slide = () => {
     </Carousel.Slide>
 
     <Carousel.Slide>
-    <img className=' brightness-75 w-[100%] h-[700px] object-cover ' src=
+    <img className=' brightness-75 w-[100%] h-[500px] object-cover ' src=
     "https://cdn.shopify.com/s/files/1/1556/1715/articles/Banner_Apr28_800x.jpg?v=1619703044" alt=""/>
                     5<div className=' gap-6 tracking-wider absolute bottom-[20%] left-[15%] text-[#fff] flex flex-col justify-center items-center text-center ' >
                         <p className=' text-[3.55rem]   font-bold ' >CK One for Every Body
