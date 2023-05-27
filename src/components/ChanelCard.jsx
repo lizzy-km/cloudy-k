@@ -114,9 +114,9 @@ const ChanelCard = () => {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
   return (
-    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' chanel flex gap-2 shadow h-[24rem] w-[100%] bg-[#333333] ' >
+    <div  className=' chanel flex gap-2 shadow h-[24rem] w-[100%] bg-[#333333] ' >
 
-        <div  className=' chanelS  w-[24rem] flex flex-col gap-3 h-[24rem] justify-center ' >
+        <div  className=' chanelS  w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
@@ -126,7 +126,7 @@ const ChanelCard = () => {
 
             </p> */}
         </div>
-        <div className=' flex overflow-auto w-[100%] gap-10 h-auto ' >
+        <div className=' flex overflow-hidden  w-[70%] gap-10 h-auto ' >
 
             {
                 isDesktop &&  <Carousel 
@@ -134,10 +134,10 @@ const ChanelCard = () => {
                 nextControlIcon={<IconArrowRight size={16} />}
                 previousControlIcon={<IconArrowLeft size={16} />}
                       
-                      slidesToScroll={5}
+                      slidesToScroll={3}
                       
                       maw='100%'
-                      slideSize='12rem'
+                      slideSize='12'
                       height='auto'
                       width='100%'
                       styles={{

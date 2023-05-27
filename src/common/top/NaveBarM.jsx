@@ -40,8 +40,8 @@ const NaveBarM = () => {
     
        <div className=' relative nav text-[#fff] flex justify-between p-[.3rem] bg-transparent items-center ' >
       <Link to={'/'} className={logo} >
-      <p className=' p-[.3rem] ' > Cloudy. </p>
-        <WiSmoke className=' bg-[#121212] text-[#fff] w-[2rem] h-[100%]  ' />
+      <p className=' p-[.3rem] text-lg ' > Cloudy. </p>
+        <WiSmoke className=' bg-[#121212] text-[#fff] w-[1rem] h-[1rem]  ' />
       </Link>
       <div className='flex justify-evenly text-2xl cursor-pointer ' >
        <div className={menue} >

@@ -116,7 +116,7 @@ const YslCard = () => {
   return (
     <div  animateIn='fadeIn' animateOut='fadeOut'  className=' ck flex gap-2 shadow h-[24rem] w-[100%] bg-[#333333] ' >
 
-        <div  className=' ckS  w-[24rem] flex flex-col gap-3 h-[24rem] justify-center ' >
+        <div  className=' ckS  w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
@@ -126,7 +126,7 @@ const YslCard = () => {
 
             </p> */}
         </div>
-        <div className=' flex overflow-auto w-[100%] gap-10 h-auto ' >
+        <div className=' flex overflow-auto w-[70%] gap-10 h-auto ' >
 
         {
                 isDesktop &&  <Carousel 
@@ -134,7 +134,7 @@ const YslCard = () => {
                 nextControlIcon={<IconArrowRight size={16} />}
                 previousControlIcon={<IconArrowLeft size={16} />}
                       
-                      slidesToScroll={5}
+                      slidesToScroll={3}
                       
                       maw='100%'
                       slideSize='12rem'
