@@ -7,6 +7,9 @@
 
 
 }
+*{
+    transition: .5s;
+}
 .collection{
     background-image: url('http://ledthanhdat.vn/html/stelina/assets/images/banner-home-15.jpg');
     background-repeat: no-repeat;
@@ -43,7 +46,7 @@
     font-weight: 800;
     /* align-self: self-start; */
     margin-top: -4rem;
-    
+
   }
 .ckS{
     background-image: url('https://i.pinimg.com/originals/16/f6/04/16f604dcd95e7db7c0892e9ecb72afaa.jpg');

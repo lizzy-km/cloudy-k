@@ -10,7 +10,7 @@ const SlideT = () => {
     slideSize='100%'
     // mx="auto"
     withIndicators
-    height={500}
+    height={550}
     styles={{
         control:{
             color: 'white',

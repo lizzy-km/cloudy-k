@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './fotter.css'
 import { IconRotate2 } from '@tabler/icons-react';
 import { IconShieldLock } from '@tabler/icons-react';
@@ -12,15 +12,20 @@ const Fotter = () => {
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
+    const ref = useRef(null)
 
-    const[fot,setFot]=useState(' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-0 opacity-0 p-[1rem]  ')
+    const[fot,setFot]=useState(' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] mt-[200px] h-0 opacity-0 p-[1rem]  ')
     const[fotd,setFotd]=useState(' d-n text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px]  mt-[200px] ')
 
     const showArrow =    <SlArrowUp className='min-h-[3rem] text-xl ' onClick={()=>{
         setArrow(hideArrow)
         setFotd(' text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px]  mt-[0px] ')
-        setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem] ')
+        setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem] mt-0 ')
+        
+
     }} />
+
+    
 
         const hideArrow =    <SlArrowDown className='min-h-[3rem] text-xl ' onClick={()=>{
             setArrow(showArrow)
@@ -29,6 +34,9 @@ const Fotter = () => {
         }} />
 
         const[arrow,setArrow]= useState(showArrow) 
+        useEffect(()=>{
+            ref.current?.scrollIntoView({behavior: 'smooth'});
+        },[arrow])
 
     // const [footer,setFooter] = useState(' text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px] ')
   if (isDesktop || isTablet) {
@@ -141,7 +149,7 @@ const Fotter = () => {
                 </div>
                 <div className=' flex flex-col gap-4 ' >
                 <div>
-                        <h1 className=' text-xl font-base '>Download Our App</h1>
+                        <h1  className=' text-xl font-base '>Download Our App</h1>
                     </div>
                     <div className='flex flex-col  gap-2 ' >
                         <div className='flex items-center justify-center gap-2 cursor-pointer ' >
@@ -154,7 +162,7 @@ const Fotter = () => {
             
            
            
-          <div className='flex text-[#fff] ' >
+          <div ref={ref} className='flex text-[#fff] ' >
            
 
            
