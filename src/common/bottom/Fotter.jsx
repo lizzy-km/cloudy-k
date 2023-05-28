@@ -14,7 +14,7 @@ const Fotter = () => {
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
     const ref = useRef(null)
 
-    const[fot,setFot]=useState(' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] mt-[200px] h-0 opacity-0 p-[1rem]  ')
+    const[fot,setFot]=useState(' text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] mt-[200px] h-1 opacity-0 p-[1rem]  ')
     const[fotd,setFotd]=useState(' d-n text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px]  mt-[200px] ')
 
     const showArrow =    <SlArrowUp className='min-h-[3rem] text-xl ' onClick={()=>{
@@ -30,7 +30,7 @@ const Fotter = () => {
         const hideArrow =    <SlArrowDown className='min-h-[3rem] text-xl ' onClick={()=>{
             setArrow(showArrow)
             setFotd(' d-n text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px]  mt-[200px] ')
-            setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%]  h-0 opacity-0  p-[1rem] ')
+            setFot('text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%]  h-1 opacity-0  p-[1rem] ')
         }} />
 
         const[arrow,setArrow]= useState(showArrow) 
@@ -151,7 +151,7 @@ const Fotter = () => {
                 <div>
                         <h1  className=' text-xl font-base '>Download Our App</h1>
                     </div>
-                    <div className='flex flex-col  gap-2 ' >
+                    <div ref={ref} className='flex flex-col  gap-2 ' >
                         <div className='flex items-center justify-center gap-2 cursor-pointer ' >
                             <img className=' w-[10rem] ' src="https://qrcgcustomers.s3.eu-west-1.amazonaws.com/account26330909/qrcodes/65893774.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYMOAQO23FRHUYI4Q%2F20230528%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230528T062330Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=2bda45610d3e373979a5e2d8bc5f76ae0abee1d7587f0f840afc8acbf31ae7bc" alt=""/>
                         </div>
@@ -162,11 +162,8 @@ const Fotter = () => {
             
            
            
-          <div ref={ref} className='flex text-[#fff] ' >
-           
-
-           
-          </div>
+          {/* <div  className='flex text-[#fff] ' >
+           </div> */}
           
         </div>
        )
@@ -273,7 +270,7 @@ const Fotter = () => {
                 <div>
                         <h1 className=' text-[.6rem] font-base '>Download Our App</h1>
                     </div>
-                    <div className='flex flex-col  gap-2 ' >
+                    <div  className='flex flex-col  gap-2 ' >
                         <div className='flex items-center justify-center gap-2 cursor-pointer ' >
                         <img className=' w-[6rem] ' src="https://qrcgcustomers.s3.eu-west-1.amazonaws.com/account26330909/qrcodes/65893774.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYMOAQO23FRHUYI4Q%2F20230528%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230528T062330Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=2bda45610d3e373979a5e2d8bc5f76ae0abee1d7587f0f840afc8acbf31ae7bc" alt=""/>
 
@@ -288,7 +285,7 @@ const Fotter = () => {
            
            
           
-          
+            
         </div>
        )
   }
