@@ -33,21 +33,21 @@ const Mid = () => {
         if (isDesktop) {
             
             setSlide(' bg-[#4e4f5cbd] w-[100%] h-[500px] relative ')
-            setMain('w-[100%] overflow-y-hidden main-mid flex flex-col px-[5rem] py-[10rem] items-center justify-center gap-[8rem] ')
+            setMain('w-[100%] border-[#111111] border-[2rem] overflow-y-hidden main-mid flex flex-col px-[5rem] py-[10rem] items-center justify-center gap-[8rem] ')
 
 
         }
         if (isTablet) {
             // window.location.reload(true)
             setSlide(' bg-[#4e4f5cbd] w-[100%] h-[500px] relative ')
-            setMain('w-[100%] overflow-y-hidden main-mid flex flex-col px-[2rem] py-[8rem] items-center justify-center gap-[8rem] ')
+            setMain('w-[100%] border-[#111111] border-[1rem] overflow-y-hidden main-mid flex flex-col px-[2rem] py-[8rem] items-center justify-center gap-[8rem] ')
 
 
         }
         if (isMobile) {
             
             setSlide(' bg-[#4e4f5cbd] w-[100%] h-[200px] relative ')
-            setMain('w-[100%] overflow-y-hidden main-mid flex flex-col px-[0rem] py-[2rem] items-center justify-center gap-[4rem] ')
+            setMain('w-[100%] border-[#111111] border-[.5rem] overflow-y-hidden main-mid flex flex-col px-[0rem] py-[2rem] items-center justify-center gap-[4rem] ')
 
 
         }
@@ -74,21 +74,21 @@ const Mid = () => {
                     
                 </div>
                 {
-                    isDesktop &&  <div className=' w-[100%] text-lg gap-8 bg-[#fff] h-[4rem] flex justify-center items-center ' >
+                    isDesktop &&  <div className=' pt-[1.5rem] w-[100%] text-lg gap-8 bg-[#111111] text-[#ffffff] h-[4rem] flex justify-center items-center ' >
                     <GiSquareBottle className=' text-[2rem] ' />
                         <h1> get your own scent with us! </h1>
                         <GiSquareBottle className=' text-[2rem] ' />
                     </div>
                 }
                 {
-                    isTablet &&  <div className=' w-[100%] text-lg gap-8 bg-[#fff] h-[4rem] flex justify-center items-center ' >
+                    isTablet &&  <div className=' pt-[1.5rem] w-[100%] text-lg gap-8 bg-[#111111] text-[#ffffff] h-[4rem] flex justify-center items-center ' >
                     <GiSquareBottle className=' text-[2rem] ' />
                         <h1> get your own scent with us! </h1>
                         <GiSquareBottle className=' text-[2rem] ' />
                     </div>
                 }
                 {
-                    isMobile &&  <div className=' w-[100%] text-xs gap-8 bg-[#fff] h-[4rem] flex justify-center items-center ' >
+                    isMobile &&  <div className=' pt-[1.5rem] w-[100%] text-xs gap-8 bg-[#111111] text-[#ffffff] h-[4rem] flex justify-center items-center ' >
                     <GiSquareBottle className=' text-[1rem] ' />
                         <h1> get your own scent with us! </h1>
                         <GiSquareBottle className=' text-[1rem] ' />
