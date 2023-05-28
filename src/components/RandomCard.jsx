@@ -6,7 +6,7 @@ import './chanel.css'
 
 const RandomCard = () => {
   return (
-    <div className=' bg-[#ab8e66c2] text-[#fff] tracking-wide gap-[2rem]  rounded-[10px] px-[1rem] py-[2rem] shadow-[#444444] shadow-md  h-[250px] flex  justify-center w-[100%] items-center  ' >
+    <div className=' bg-[#22201dc2] text-[#fff] tracking-wide gap-[2rem]  rounded-[10px] px-[1rem] py-[2rem] shadow-[#444444] shadow-md  h-[250px] flex  justify-center w-[100%] items-center  ' >
       <div className=' gap-4 w-[33.3333%] flex  justify-center items-center ' >
         <div>
             <RxRocket className=' text-[6rem] font-light ' />

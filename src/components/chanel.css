@@ -14,8 +14,9 @@
     background-image: url('http://ledthanhdat.vn/html/stelina/assets/images/banner-home-15.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 120%;
     backdrop-filter: brightness(.5);
+    /* filter: brightness(.9); */
 }
 .collectionM{
     background-image: url('http://ledthanhdat.vn/html/stelina/assets/images/banner-home-15.jpg');
@@ -23,6 +24,7 @@
     background-position: left;
     background-size: 1400px;
     backdrop-filter: brightness(.5);
+    
 }
 .cc{
     background: rgba(0, 0, 0, 0.064);
