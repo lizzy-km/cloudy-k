@@ -114,7 +114,7 @@ const ChanelCard = () => {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
   return (
-    <div  className=' rounded-[10px] shadow-md chanel flex gap-2 shadow-[#444444] h-[24rem] w-[100%] bg-[#333333] ' >
+    <div  className=' rounded-[10px] shadow-md chanel flex gap-0 shadow-[#444444] h-[24rem] w-[100%] bg-[#333333] ' >
 
         <div  className=' chanelS rounded-l-[10px]  w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
@@ -126,7 +126,7 @@ const ChanelCard = () => {
 
             </p> */}
         </div>
-        <div className=' flex overflow-hidden  w-[70%] gap-10 h-auto ' >
+        <div className=' cc flex overflow-hidden  w-[70%] gap-10 h-auto ' >
 
             {
                 isDesktop &&  <Carousel 

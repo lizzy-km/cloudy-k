@@ -111,7 +111,7 @@ const chanel= [
 
 const ChanelCardM = () => {
   return (
-    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' rounded-[10px] chanel flex gap-2 shadow h-[10rem] w-[100%] bg-[#333333] ' >
+    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' rounded-[10px] chanel flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ' >
 
         <div  className=' chanelS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-[100%] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
@@ -123,7 +123,7 @@ const ChanelCardM = () => {
 
             </p> */}
         </div>
-        <div className=' flex overflow-auto w-[80%] gap-10 h-auto ' >
+        <div className=' cc flex overflow-auto w-[80%] gap-10 h-auto ' >
 
         <Carousel 
 
