@@ -70,14 +70,7 @@ const Latest = () => {
             description:'Eau de Parfum Spray starting from',
             price:'155'
         },
-        {
-            id:'9',
-            brand:'calvinklein',
-            title:'Eternity Eau de Parfum Intense For Women',
-            img:'https://calvinklein.scene7.com/is/image/CalvinKlein/44014550_000_alternate1?wid=720&hei=949&fmt=pjpeg&qlt=85%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0',
-            description:'Eau de Parfum Spray starting from',
-            price:'107'
-        },
+        
     ]
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
