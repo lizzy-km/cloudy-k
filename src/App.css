@@ -15,11 +15,15 @@
     border-radius: 8px;
   }
 *{
-    
+    filter: saturate(.3);
+
     transition: .3s;
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
 * ::-webkit-scrollbar{
     display: none;
+}
+button{
+    box-shadow: 2px 2px 2px #111111;
 }
