@@ -5,7 +5,7 @@ import {VscDiffAdded} from 'react-icons/vsc'
 import {MdArrowForwardIos,MdArrowBackIosNew} from 'react-icons/md'
 
 const CardM = ({data}) => {
-   const[cd,setCd] = useState(' chanelCard flex flex-col p-[1rem] opacity-0 w-0 ')
+   const[cd,setCd] = useState(' chanelCard flex flex-col p-[1rem] w-[100%] ')
    const showArrow = <MdArrowForwardIos onClick={()=> 
     {
         setCd(' chanelCard flex flex-col p-[1rem] w-[100%] ')
@@ -19,7 +19,7 @@ const CardM = ({data}) => {
         setArrow(showArrow)
     }
     } />
-    const[arrow,setArrow]= useState(showArrow)
+    const[arrow,setArrow]= useState(hideArrow)
    
 
     return (
