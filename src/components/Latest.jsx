@@ -151,7 +151,7 @@ const Latest = () => {
             // loop
             align="center"
             
-            slidesToScroll={4}
+            slidesToScroll={3}
             styles={{
               control:{
                   color: 'white',
