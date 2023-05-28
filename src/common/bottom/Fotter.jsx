@@ -162,8 +162,9 @@ const Fotter = () => {
             
            
            
-          {/* <div  className='flex text-[#fff] ' >
-           </div> */}
+          <div  className='flex bg-[#111111] w-[100%] text-center justify-center text-[#fff] ' >
+          © copyright 2023 by lizzy co.,ltd all rigths served
+           </div>
           
         </div>
        )
@@ -285,7 +286,9 @@ const Fotter = () => {
            
            
           
-            
+            <div  className='flex p-[1rem] bg-[#111111] w-[100%] text-center justify-center text-[#fff] ' >
+          © copyright 2023 by lizzy co.,ltd all rigths served
+           </div>
         </div>
        )
   }
