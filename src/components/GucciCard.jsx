@@ -114,9 +114,9 @@ const GucciCard = () => {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
   return (
-    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' GucciT  flex gap-2 shadow h-[24rem] w-[100%] bg-[#333333] ' >
+    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' GucciT  flex gap-2 shadow-[#444444] shadow-md rounded-[10px] h-[24rem] w-[100%] bg-[#333333] ' >
 
-        <div  className='  gucci w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
+        <div  className=' rounded-l-[10px]  gucci w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>

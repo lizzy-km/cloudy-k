@@ -5,6 +5,9 @@
 .mantine-1svz3tp{
     color:white;
 }
+.d-n{
+    display: none !important ;
+}
 @font-face {
     font-family: "abchanel-corpo";
     font-display: swap;

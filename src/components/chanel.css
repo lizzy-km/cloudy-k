@@ -7,6 +7,28 @@
 
 
 }
+.collection{
+    background-image: url('http://ledthanhdat.vn/html/stelina/assets/images/banner-home-15.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    backdrop-filter: brightness(.5);
+}
+.collectionM{
+    background-image: url('http://ledthanhdat.vn/html/stelina/assets/images/banner-home-15.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1400px;
+    backdrop-filter: brightness(.5);
+}
+.cc{
+    background: rgba(0, 0, 0, 0.064);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+.cus{
+    line-height: 1.5rem !important ;
+}
 .d-n{
     display: none;
 }
@@ -19,6 +41,9 @@
     border: none;
     border-radius: 8px;
     font-weight: 800;
+    /* align-self: self-start; */
+    margin-top: -4rem;
+    
   }
 .ckS{
     background-image: url('https://i.pinimg.com/originals/16/f6/04/16f604dcd95e7db7c0892e9ecb72afaa.jpg');
@@ -54,7 +79,7 @@
     background-image: url('https://scentfie.com/wp-content/uploads/2018/07/Chanel-Coco-Noir-Poster.jpg');
     background-size: cover;
     /* backdrop-filter: blur(2px); */
-    background-position: right;
+    background-position: center;
 }
 
 .chanelCard{

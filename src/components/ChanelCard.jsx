@@ -114,9 +114,9 @@ const ChanelCard = () => {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 992px)' })
   return (
-    <div  className=' chanel flex gap-2 shadow h-[24rem] w-[100%] bg-[#333333] ' >
+    <div  className=' rounded-[10px] shadow-md chanel flex gap-2 shadow-[#444444] h-[24rem] w-[100%] bg-[#333333] ' >
 
-        <div  className=' chanelS  w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
+        <div  className=' chanelS rounded-l-[10px]  w-[30%] flex flex-col gap-3 h-[24rem] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>

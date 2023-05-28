@@ -69,13 +69,13 @@ const NaveBarM = () => {
         </div>
 
         <div className=' w-[5%] text-3xl cursor-pointer justify-center flex items-center   h-[2rem] '>
-        <Link to={'/cart'}  className=' w-[100%]  '>
+        <Link to={'/'}  className=' w-[100%]  '>
             <IoCartOutline className='text-2xl  cursor-pointer ' />
         </Link>
             </div>
 
             <div className=' w-[5%] text-3xl cursor-pointer justify-center flex items-center   h-[2rem] '>
-        <Link to={'/userprofile'}  className=' w-[100%]  '>
+        <Link to={'/'}  className=' w-[100%]  '>
             <VscAccount className='text-2xl  cursor-pointer ' />
         </Link>
             </div>

@@ -1,4 +1,14 @@
-.bg-blur{
-    background: rgba(255, 255, 255, 0.861);
-    backdrop-filter: blur(5px);
+.main-mid{
+    background: rgba(250, 249, 249, 0.206);
+    backdrop-filter: blur(8px);
+}
+.mid{
+    background-image: url('https://i.pinimg.com/564x/48/97/00/489700a2186577ef73d3227dfe7eb6a4.jpg');
+    background-position: center;
+
+
+}
+.brand{
+    background: rgba(250, 249, 249, 0.348);
+    backdrop-filter: blur(8px);
 }

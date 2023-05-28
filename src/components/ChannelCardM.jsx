@@ -113,7 +113,7 @@ const ChanelCardM = () => {
   return (
     <div  animateIn='fadeIn' animateOut='fadeOut'  className=' chanel flex gap-2 shadow h-[10rem] w-[100%] bg-[#333333] ' >
 
-        <div  className=' chanelS  w-[30%] flex flex-col gap-3 h-[10rem] justify-center ' >
+        <div  className=' chanelS  w-[20%] flex flex-col gap-3 h-[100%] justify-center ' >
             {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
             <h2 className=' text-2xl ' >WOMEN</h2>
             <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
@@ -123,7 +123,7 @@ const ChanelCardM = () => {
 
             </p> */}
         </div>
-        <div className=' flex overflow-auto w-[70%] gap-10 h-auto ' >
+        <div className=' flex overflow-auto w-[80%] gap-10 h-auto ' >
 
         <Carousel 
 

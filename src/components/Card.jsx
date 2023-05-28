@@ -6,17 +6,17 @@ import {VscDiffAdded} from 'react-icons/vsc'
 const Card = ({data}) => {
     
     const [cd,setCd] = useState(' flex flex-col h-0 opacity-0 ')
-    const[title,setTitle] = useState('text-sm')
+    const[title,setTitle] = useState('text-sm py-[.3rem] line-clamp-1 ')
 
 
     return (
-        <div  className=' mx-[1rem] mt-[1rem] pb-[1rem] rounded-md shadow-md shadow-[#666666] h-auto  chanelCard gap-1 flex flex-col w-[12rem] justify-between items-center ' >
+        <div  className=' mx-[1rem] mt-[1rem] pb-[2rem] rounded-md shadow-md shadow-[#666666] h-auto  chanelCard gap-1 flex flex-col w-[12rem] justify-between items-center ' >
         <div onMouseLeave={()=>{
             setCd(' flex flex-col h-0 opacity-0  ')
-            setTitle('text-sm')
+            setTitle('text-sm line-clamp-1 ')
         }} onMouseEnter={()=>{
             setCd(' flex flex-col h-[7rem] gap-5 ')
-            setTitle('opacity-0')
+            setTitle('opacity-0 line-clamp-1 ')
         }} className=' bg-[#ffffffde] shadow-inner h-[14rem]  rounded-t-md ' >
 
             <img className=' w-[14rem] h-[14rem] rounded-t-md '  src={data?.img} alt=""/>

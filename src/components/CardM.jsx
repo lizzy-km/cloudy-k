@@ -24,8 +24,8 @@ const CardM = ({data}) => {
 
     return (
         <div  className=' mt-[.5rem] rounded-md shadow-md shadow-[#666666] h-[9rem]   gap-1 flex  w-[100%] justify-between items-center ' >
-        <div className=' text-[#121212] flex items-center justify-center bg-[#ffffffde] w-[10rem] shadow-inner card  rounded-l-md ' >
-            <img className=' object-cover h-[8rem] min-w-[8rem] rounded-l-md '  src={data?.img} alt=""/>
+        <div className=' text-[#121212] flex items-center justify-center bg-[#ffffffde] w-[6rem] shadow-inner card  rounded-l-md ' >
+            <img className=' object-cover object-center h-[8rem] max-w-[5rem] rounded-l-md '  src={data?.img} alt=""/>
             {arrow}
             
         </div>
