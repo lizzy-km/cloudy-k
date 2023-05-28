@@ -153,7 +153,7 @@ const Fotter = () => {
                     </div>
                     <div ref={ref} className='flex flex-col  gap-2 ' >
                         <div className='flex items-center justify-center gap-2 cursor-pointer ' >
-                            <img className=' w-[10rem] ' src="https://qrcgcustomers.s3.eu-west-1.amazonaws.com/account26330909/qrcodes/65893774.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYMOAQO23FRHUYI4Q%2F20230528%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230528T062330Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=2bda45610d3e373979a5e2d8bc5f76ae0abee1d7587f0f840afc8acbf31ae7bc" alt=""/>
+                            <img className=' w-[10rem] ' src="https://i.pinimg.com/originals/9c/98/9b/9c989bba786f8955c01017c0e734b756.png" alt=""/>
                         </div>
                        
                     </div>
@@ -273,7 +273,7 @@ const Fotter = () => {
                     </div>
                     <div  className='flex flex-col  gap-2 ' >
                         <div className='flex items-center justify-center gap-2 cursor-pointer ' >
-                        <img className=' w-[6rem] ' src="https://qrcgcustomers.s3.eu-west-1.amazonaws.com/account26330909/qrcodes/65893774.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYMOAQO23FRHUYI4Q%2F20230528%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230528T062330Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=2bda45610d3e373979a5e2d8bc5f76ae0abee1d7587f0f840afc8acbf31ae7bc" alt=""/>
+                        <img className=' w-[6rem] ' src="https://i.pinimg.com/originals/9c/98/9b/9c989bba786f8955c01017c0e734b756.png" alt=""/>
 
                         </div>
                        
