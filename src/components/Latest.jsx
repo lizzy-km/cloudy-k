@@ -148,10 +148,10 @@ const Latest = () => {
             height='40rem'
             slideSize="20rem"
             slideGap="xl"
-            loop
+            // loop
             align="center"
             
-            slidesToScroll={3}
+            slidesToScroll={4}
             styles={{
               control:{
                   color: 'white',
