@@ -3,8 +3,10 @@
     backdrop-filter: blur(8px);
 }
 .mid{
-    background-image: url('https://i.pinimg.com/564x/48/97/00/489700a2186577ef73d3227dfe7eb6a4.jpg');
+    background-image: url('https://i.pinimg.com/564x/f9/bc/68/f9bc68a92ebea89c7edcac34dc432b56.jpg');
     background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: 150%;
 
 
 }

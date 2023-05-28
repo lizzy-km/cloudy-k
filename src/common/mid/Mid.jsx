@@ -33,7 +33,7 @@ const Mid = () => {
         if (isDesktop) {
             
             setSlide(' bg-[#4e4f5cbd] w-[100%] h-[500px] relative ')
-            setMain('w-[100%] border-[#111111] border-[2rem] overflow-y-hidden main-mid flex flex-col px-[5rem] py-[10rem] items-center justify-center gap-[8rem] ')
+            setMain('w-[100%] border-[#111111] border-[2rem] overflow-y-hidden main-mid flex flex-col px-[5rem] py-[10rem] items-center justify-center gap-[2rem] ')
 
 
         }
