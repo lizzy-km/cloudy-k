@@ -10,12 +10,12 @@ import ChanelCardM from '../../components/ChannelCardM'
 import GucciCardM from '../../components/GucciCardM'
 import YslCard from '../../components/YslCard'
 import YslCardM from '../../components/YslCardM'
-import Random from '../../components/Random'
 import RandomCard from '../../components/RandomCard'
 import RandomM from '../../components/RandomM'
 import RandomCardM from '../../components/RandomCardM'
 import Latest from '../../components/Latest'
 import {GiSquareBottle} from 'react-icons/gi'
+import Random from '../../components/Random'
 
 const Mid = () => {
 
