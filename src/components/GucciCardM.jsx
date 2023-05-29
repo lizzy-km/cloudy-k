@@ -130,11 +130,12 @@ const GucciCardM = () => {
     nextControlIcon={<IconArrowRight size={10} />}
     previousControlIcon={<IconArrowLeft size={10} />}
           
-          slidesToScroll={1}
-          maw='100%'
-          slideSize='100%'
-          height='auto'
-          width='100%'
+    slidesToScroll={1}
+    maw='100%'
+    slideSize='10%'
+    height='auto'
+    width='100%'
+    align='start'
           styles={{
             control: {
                width:'10px',

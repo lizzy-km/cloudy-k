@@ -44,7 +44,7 @@ function App() {
                   </Route>
 
       </Routes>
-      <Fotter className='  ' />
+      <Fotter />
       </BrowserRouter>
      
     </div>
