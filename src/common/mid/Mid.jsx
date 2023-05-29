@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './mid.css'
 import Slide from '../../components/Slide'
 import { useMediaQuery } from 'react-responsive'
@@ -55,11 +55,22 @@ const Mid = () => {
         // window.location.reload(true)
     },[])
 
+    const ref = useRef(null)
+
+    const scrollTop =()=>{
+        ref.current?.scrollIntoView({behavior: 'smooth'});
+    }
+
+    // useEffect(()=>{
+        
+    // },[])
+
+
     
 
   return (
     <div className='mid top-[0%] overflow-y-hidden  flex flex-col justify-center items-center gap-0  h-auto w-[100%] ' >
-                <div className={slide} >
+                <div ref={ref} className={slide} >
                     {
                         isDesktop &&                    <Slide/>
 
@@ -321,7 +332,7 @@ d="M110.631 7.759l-.228.076q-1.331-2.891-3.804-4.603-2.434-1.711-6.123-1.711-2.0
                     </div>
                     
                 </div>
-                <Fotter />
+                <Fotter scrollTop={scrollTop}  />
             </div>
   )
 }
