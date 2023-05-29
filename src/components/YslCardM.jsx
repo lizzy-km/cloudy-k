@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './chanel.css'
 import {VscDiffAdded} from 'react-icons/vsc'
 import Card from './Card'
@@ -6,6 +6,7 @@ import { Carousel } from '@mantine/carousel';
 
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 import CardM from './CardM';
+import { useMediaQuery } from 'react-responsive';
 
 const ysl= [
     {
@@ -109,65 +110,147 @@ const ysl= [
 ]
 
 
+
 const YslCardM = () => {
-  return (
-    <div  animateIn='fadeIn' animateOut='fadeOut'  className=' ck rounded-[10px] flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ' >
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
+    const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 991px)' })
+   const [cCard,setCCard]= useState(' rounded-[10px] chanel flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ')
 
-        <div  className=' ckS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-[10rem] justify-center ' >
-            {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
-            <h2 className=' text-2xl ' >WOMEN</h2>
-            <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
-            CHANEL fragrance for women is inspired by the world of Mademoiselle and <br/>
-            composes its own imaginative and feminine olfactory experience. For a complete <br/>
-            beauty ritual, prolong the fragrance trail with other expressions of the scent. 
+  
 
-            </p> */}
-        </div>
-        <div className='cc flex overflow-auto w-[80%] gap-10 h-auto ' >
+  
 
-        <Carousel 
+   
 
-nextControlIcon={<IconArrowRight size={10} />}
-previousControlIcon={<IconArrowLeft size={10} />}
-      
-slidesToScroll={1}
-maw='100%'
-slideSize='10%'
-height='auto'
-width='100%'
-align='start'
-      styles={{
-        control: {
-           width:'10px',
-           height:'1rem',
-           borderRadius:'0',
-           background:'#121212',
-           
-           color:'white',
-          '&[data-inactive]': {
-            opacity: 0,
-            cursor: 'default',
-          },
-        },
-      }}
-    >
-         {
-            ysl?.map(data =>{
-                return(
-                    <Carousel.Slide><CardM data={data} /></Carousel.Slide>
-                )
-            })
-           }
-      
-     
-      {/* ...other slides */}
-    </Carousel>
+   if (isMobile) {
+    useEffect(()=>{
+        setCCard(' rounded-[10px] chanel flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ')
+       },[])
+    return (
+        <div  animateIn='fadeIn' animateOut='fadeOut'  className={cCard} >
+    
+            <div  className=' chanelS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
+                {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
+                <h2 className=' text-2xl ' >WOMEN</h2>
+                <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
+                CHANEL fragrance for women is inspired by the world of Mademoiselle and <br/>
+                composes its own imaginative and feminine olfactory experience. For a complete <br/>
+                beauty ritual, prolong the fragrance trail with other expressions of the scent. 
+    
+                </p> */}
+            </div>
+            <div className=' cc flex overflow-auto w-[80%] gap-10 h-auto ' >
+    
+            <Carousel 
+    
+    nextControlIcon={<IconArrowRight size={10} />}
+    previousControlIcon={<IconArrowLeft size={10} />}
           
-       
+          slidesToScroll={1}
+          maw='100%'
+          slideSize='10%'
+          height='auto'
+          width='100%'
+          align='start'
+          styles={{
+            control: {
+               width:'10px',
+               height:'1rem',
+               borderRadius:'0',
+               background:'#121212',
+               
+               color:'white',
+              '&[data-inactive]': {
+                opacity: 0,
+                cursor: 'default',
+              },
+            },
+          }}
+        >
+             {
+                ysl?.map(data =>{
+                    return(
+                        <Carousel.Slide><CardM data={data} /></Carousel.Slide>
+                    )
+                })
+               }
+          
+         
+          {/* ...other slides */}
+        </Carousel>
+              
+           
+            </div>
+          
         </div>
-      
-    </div>
-  )
+      )
+   }
+   if (isTablet) {
+    useEffect(()=>{
+        setCCard(' rounded-[10px] chanel flex gap-0 shadow h-[16rem] w-[100%] bg-[#333333] ')
+
+    },[])
+    return (
+        <div  animateIn='fadeIn' animateOut='fadeOut'  className={cCard} >
+    
+            <div  className=' chanelS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
+                {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
+                <h2 className=' text-2xl ' >WOMEN</h2>
+                <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
+                CHANEL fragrance for women is inspired by the world of Mademoiselle and <br/>
+                composes its own imaginative and feminine olfactory experience. For a complete <br/>
+                beauty ritual, prolong the fragrance trail with other expressions of the scent. 
+    
+                </p> */}
+            </div>
+            <div className=' cc flex overflow-auto w-[80%] gap-10 h-auto ' >
+    
+            <Carousel 
+    
+    nextControlIcon={<IconArrowRight size={10} />}
+    previousControlIcon={<IconArrowLeft size={10} />}
+          
+          slidesToScroll={1}
+          maw='100%'
+          slideSize='10%'
+          height='auto'
+          width='100%'
+          align='start'
+          styles={{
+            control: {
+               width:'10px',
+               height:'1rem',
+               borderRadius:'0',
+               background:'#121212',
+               
+               color:'white',
+              '&[data-inactive]': {
+                opacity: 0,
+                cursor: 'default',
+              },
+            },
+          }}
+        >
+             {
+                ysl?.map(data =>{
+                    return(
+                        <Carousel.Slide><CardM data={data} /></Carousel.Slide>
+                    )
+                })
+               }
+          
+         
+          {/* ...other slides */}
+        </Carousel>
+              
+           
+            </div>
+          
+        </div>
+      )
+   }
+
+  
 }
 
 export default YslCardM

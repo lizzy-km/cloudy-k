@@ -207,7 +207,7 @@ const Mid = () => {
 
                     }
                      {
-                        isTablet &&                   <ChanelCard/>
+                        isTablet &&                   <ChanelCardM/>
 
                     }
                     {
@@ -230,7 +230,7 @@ const Mid = () => {
 
                     }
                      {
-                        isTablet &&                  <YslCard/>
+                        isTablet &&                  <YslCardM/>
 
                     }
                     {
@@ -275,7 +275,7 @@ d="M110.631 7.759l-.228.076q-1.331-2.891-3.804-4.603-2.434-1.711-6.123-1.711-2.0
 
                     }
                      {
-                        isTablet &&                  <GucciCard/>
+                        isTablet &&                  <GucciCardM/>
 
                     }
                     {
@@ -300,7 +300,7 @@ d="M110.631 7.759l-.228.076q-1.331-2.891-3.804-4.603-2.434-1.711-6.123-1.711-2.0
 
                     }
                      {
-                        isTablet &&                  <YslCard/>
+                        isTablet &&                  <YslCardM/>
 
                     }
                     {
