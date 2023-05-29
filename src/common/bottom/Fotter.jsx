@@ -42,10 +42,10 @@ const Fotter = () => {
   if (isDesktop || isTablet) {
     return(
         <div className=' bg-[#111111] text-[#fff] w-[100%] h-auto  px-[5rem] ' >
-             <div className=' text-[#fff] text-xl w-[100%] flex justify-center items-center ' >
+             {/* <div className=' text-[#fff] text-xl w-[100%] flex justify-center items-center ' >
             {arrow}
-            </div>
-             <div className={fotd} >
+            </div> */}
+             <div className=' text-[#fff] flex justify-between py-[1rem] gap-6 bg-blur w-[100%] h-[300px]  mt-[0px] ' >
                 <div className=' flex flex-col gap-6 ' >
                     <div>
                         <h1 className=' text-xl font-base ' >Customer Service</h1>
@@ -172,11 +172,11 @@ const Fotter = () => {
   if (isMobile) {
     return(
         <div className=' bg-[#111111] w-[100%] h-auto text-[.4rem] overflow-hidden  ' >
-            <div className=' text-[#fff] text-xl w-[100%] flex justify-center items-center ' >
+            {/* <div className=' text-[#fff] text-xl w-[100%] flex justify-center items-center ' >
             {arrow}
-            </div>
+            </div> */}
            
-             <div className={fot} >
+             <div className='text-[#fff] flex flex-col justify-between py-[2rem] gap-6 bg-blur w-[100%] h-auto p-[1rem] mt-0 ' >
                <div className='flex justify-between' >
                <div className=' flex flex-col gap-6 ' >
                     <div>

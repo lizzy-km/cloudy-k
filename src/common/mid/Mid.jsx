@@ -16,6 +16,7 @@ import RandomCardM from '../../components/RandomCardM'
 import Latest from '../../components/Latest'
 import {GiSquareBottle} from 'react-icons/gi'
 import Random from '../../components/Random'
+import Fotter from '../bottom/Fotter'
 
 const Mid = () => {
 
@@ -320,7 +321,7 @@ d="M110.631 7.759l-.228.076q-1.331-2.891-3.804-4.603-2.434-1.711-6.123-1.711-2.0
                     </div>
                     
                 </div>
-                
+                <Fotter />
             </div>
   )
 }

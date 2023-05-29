@@ -4,7 +4,7 @@ import './App.css'
 import Home from './pages/Home'
 import Cart from './pages/Cart'
 import UserProfile from './pages/UserProfile'
-import { Fotter, NaveBar, NaveBarM } from './common/index'
+import {  NaveBar, NaveBarM } from './common/index'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -44,7 +44,7 @@ function App() {
                   </Route>
 
       </Routes>
-      <Fotter />
+     
       </BrowserRouter>
      
     </div>
