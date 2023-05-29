@@ -15,7 +15,7 @@ const Fotter = ({scrollTop}) => {
     const ref = useRef(null)
 
     
-    const showArrow =    <SlArrowUp className='min-h-[3rem] text-xl ' onClick={scrollTop} />
+    const showArrow =    <SlArrowUp className='min-h-[3rem] text-xl cursor-pointer h-[4rem] ' onClick={scrollTop} />
 
     
 
