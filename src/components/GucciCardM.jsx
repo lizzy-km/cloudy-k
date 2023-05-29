@@ -125,12 +125,12 @@ const GucciCardM = () => {
 
    if (isMobile) {
     useEffect(()=>{
-        setCCard(' rounded-[10px] chanel flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ')
+        setCCard(' rounded-[10px] GucciTM flex gap-0 shadow h-[10rem] w-[100%] bg-[#333333] ')
        },[])
     return (
         <div  animateIn='fadeIn' animateOut='fadeOut'  className={cCard} >
     
-            <div  className=' chanelS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
+            <div  className=' gucciM rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
                 {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
                 <h2 className=' text-2xl ' >WOMEN</h2>
                 <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
@@ -188,13 +188,13 @@ const GucciCardM = () => {
    }
    if (isTablet) {
     useEffect(()=>{
-        setCCard(' rounded-[10px] chanel flex gap-0 shadow h-[16rem] w-[100%] bg-[#333333] ')
+        setCCard(' rounded-[10px] GucciTM flex gap-0 shadow h-[16rem] w-[100%] bg-[#333333] ')
 
     },[])
     return (
         <div  animateIn='fadeIn' animateOut='fadeOut'  className={cCard} >
     
-            <div  className=' chanelS rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
+            <div  className=' gucciM rounded-l-[10px]  w-[20%] flex flex-col gap-3 h-auto justify-center ' >
                 {/* <h1 className=' text-[.7rem] font-medium ' >FRAGRANCE</h1>
                 <h2 className=' text-2xl ' >WOMEN</h2>
                 <p className=' py-[.5rem] text-[#918f8f] text-sm font-thin  ' >Lifelong companions for bold, luminous personalities in perpetual movement, each <br/>
